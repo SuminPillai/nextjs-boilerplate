@@ -1,0 +1,79 @@
+{
+    "common": {
+        "siteName": "Anantadrishti Yoga",
+        "tagline": "Vision Infinie, Possibilités Infinies",
+        "bookNow": "Réserver",
+        "learnMore": "En Savoir Plus",
+        "contactUs": "Nous Contacter",
+        "home": "Accueil",
+        "about": "À Propos",
+        "contact": "Contact",
+        "blog": "Blog",
+        "offerings": "Offres",
+        "devotion": "Dévotion",
+        "rituals": "Rituels",
+        "pranayama": "Pranayama",
+        "philosophy": "Philosophie",
+        "satsang": "Satsang",
+        "retreats": "Retraites",
+        "gallery": "Galerie",
+        "more": "Plus",
+        "readMore": "Lire la Suite",
+        "viewAll": "Voir Tout"
+    },
+    "header": {
+        "overview": "Aperçu",
+        "viewAllRetreats": "Toutes les Retraites",
+        "journal": "Journal",
+        "bookYourJourney": "Réservez Votre Voyage",
+        "welcomeTo": "Bienvenue à",
+        "yogaShala": "Yoga Shala Rishikesh",
+        "explore": "Explorer"
+    },
+    "hero": {
+        "title1": "Formation de Professeurs de Yoga",
+        "title2": "à Rishikesh, Inde",
+        "subtitle": "Programmes Hatha et Ashtanga certifiés Yoga Alliance dans la capitale mondiale du yoga",
+        "cta": "Découvrir Notre Histoire",
+        "scroll": "Faire défiler pour explorer"
+    },
+    "courses": {
+        "teacherTraining": "Formation de Professeurs",
+        "100hr": "100 Heures TTC",
+        "200hr": "200 Heures TTC",
+        "300hr": "300 Heures TTC",
+        "yogaAllianceCertified": "Certifié Yoga Alliance"
+    },
+    "contact": {
+        "title": "Prendre Contact",
+        "subtitle": "Nous serions ravis de vous entendre",
+        "fullName": "Nom Complet",
+        "email": "Adresse Email",
+        "phone": "Numéro de Téléphone",
+        "subject": "Sujet",
+        "message": "Message",
+        "send": "Envoyer le Message",
+        "success": "Message Envoyé !",
+        "successDescription": "Merci ! Nous avons reçu votre message et reviendrons vers vous très bientôt.",
+        "error": "Quelque chose s'est mal passé.",
+        "errorDescription": "Veuillez réessayer ou nous contacter directement via WhatsApp."
+    },
+    "footer": {
+        "description": "Vision Infinie, Possibilités Infinies. Yoga authentique au cœur de Rishikesh.",
+        "copyright": "Tous Droits Réservés.",
+        "poweredBy": "Propulsé par",
+        "teacherTraining": "Formation de Professeurs",
+        "comingSoon": "Prochainement : Cours en Ligne",
+        "programs": "Programmes Immersifs",
+        "yogaRetreats": "Retraites de Yoga",
+        "pranayamaCourse": "Cours de Pranayama",
+        "devotionBhakti": "Dévotion (Bhakti)",
+        "vedicRituals": "Rituels Védiques",
+        "yogaPhilosophy": "Philosophie du Yoga",
+        "company": "Entreprise & Politique",
+        "blogArticles": "Blog & Articles",
+        "terms": "Conditions Générales",
+        "privacy": "Politique de Confidentialité",
+        "refund": "Politique de Remboursement"
+    }
+}

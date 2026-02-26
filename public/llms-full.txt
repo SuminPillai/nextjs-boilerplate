@@ -1,0 +1,74 @@
+# Ananta Drishti Yoga: Comprehensive Context
+
+> This document contains the essential content, philosophy, and offerings of Ananta Drishti Yoga, designed for AI consumption.
+
+## 1. School Overview
+**Name**: Ananta Drishti Yoga
+**Location**: Tapovan, Rishikesh, Uttarakhand, India ("The Yoga Capital of the World").
+**Philosophy**: "Journey to the Self in the Heart of the Himalayas."
+**Mission**: To preserve the sanctity of ancient yoga while making it accessible to the modern seeker. We move beyond mere physical exercise to explore the spiritual dimensions of Yoga, including Bhakti (devotion), Mantra, and Ritual.
+
+## 2. Core Pillars & Unique Selling Points
+1.  **Daily Agni Hotra (Havan)**: We perform a daily Vedic fire ceremony to purify the internal and external atmosphere. This sets us apart from purely commercial schools.
+2.  **Pranayama Focus**: Deep emphasis on breathwork, including Kumbhaka (retention) and subtle energy channels, distinguishing our training from typical Asana-focused courses.
+3.  **Living Philosophy**: Our teachings are rooted in *Advaita Vedanta* (Non-dualism) and *Patanjali's Yoga Sutras*, encouraging constant Self-inquiry (*Atma Vichara*).
+4.  **Scientific Alignment**: We integrate modern anatomy and biomechanics to ensure safe, sustainable practice.
+
+## 3. Teacher Training Courses (TTC)
+Our courses are Yoga Alliance (USA) certified.
+
+### 200-Hour Yoga Teacher Training
+- **Focus**: Foundation of Hatha & Ashtanga Vinyasa.
+- **Duration**: 24 Days.
+- **Curriculum**: Asana alignment, Introduction to Pranayama, Yoga Philosophy (Yoga Sutras), Anatomy, Meditation, and Teaching Methodology.
+- **Ideal For**: Beginners to Intermediate practitioners seeking certification.
+
+### 300-Hour Advanced Yoga Teacher Training
+- **Focus**: Advanced Asana, Therapy, & Subtle Body.
+- **Duration**: 28 Days.
+- **Curriculum**: Advanced Hatha/Ashtanga series, Therapeutic application of Yoga, In-depth Pranayama, Advanced Philosophy (Bhagavad Gita, Upanishads).
+- **Ideal For**: RYT-200 graduates deepening their practice.
+
+### 100-Hour Yoga Teacher Training
+- **Focus**: Intensive Foundation / Refresher.
+- **Duration**: 12 Days.
+- **Ideal For**: Those with limited time or seeking a shorter immersion.
+
+## 4. Retreats & Immersions
+
+### 7-Day Yoga Retreat (Best Seller)
+- **Experience**: A restorative journey combining daily yoga, meditation, and nature.
+- **Inclusions**: Sunrise Hatha Yoga, Guided Meditation, Ayurvedic Massage, Waterfall Treks, Ganga Aarti visits.
+- **Vibe**: Rejuvenation and connection with nature.
+
+### 3-Day Pranayama Retreat
+- **Focus**: Breath mastery.
+- **Curriculum**: Kapalbhati, Bhastrika, Nadi Shodhana, and introduction to Bandhas (locks).
+
+### Advanced Pranayama Immersion
+- **Duration**: 3 to 7 Days.
+- **Focus**: Kundalini awakening, advanced retention ratios, and spiritual purification.
+
+1-Day Reset
+- 24-hour immersive experience for travelers passing through Rishikesh.
+
+## 5. Daily Rituals & Community
+- **Satsang**: Community gathering for chanting (Kirtan) and spiritual discourse.
+- **Ganga Aarti**: Participation in the sacred river worship ceremony.
+- **Sound Healing**: Tibetan singing bowl sessions for deep relaxation.
+
+## 6. Technical & Developer Context (For Internal AI Tools)
+*This section aids developers working on the `anantadrishtiyoga.com` codebase.*
+
+- **Framework**: Next.js 16.1 (App Router)
+- **Styling**: Tailwind CSS 4.0 (`globals.css` defines `--brand-primary` #D97706, `--brand-base` #FFF7ED)
+- **Components**:
+    - `Hero`: Parallax effects, "Journey to the Self" narrative.
+    - `Stats`: Displays 500+ Graduates, RYS Status.
+    - `CourseSchema`: JSON-LD structured data for every course page.
+- **Design System**: "Modern Spiritual Sanctuary" - uses Glassmorphism, Saffron/Teal gradients, and Serif typography.
+
+## 7. Contact Information
+- **Website**: https://www.anantadrishtiyoga.com
+- **Address**: Tapovan, Rishikesh, 249192, India.
+- **Booking**: Online via website form or WhatsApp.

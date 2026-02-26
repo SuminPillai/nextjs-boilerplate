@@ -1,0 +1,79 @@
+{
+    "common": {
+        "siteName": "아난타드리슈티 요가",
+        "tagline": "무한한 비전, 무한한 가능성",
+        "bookNow": "지금 예약",
+        "learnMore": "자세히 알아보기",
+        "contactUs": "문의하기",
+        "home": "홈",
+        "about": "소개",
+        "contact": "연락처",
+        "blog": "블로그",
+        "offerings": "과정",
+        "devotion": "헌신",
+        "rituals": "의식",
+        "pranayama": "프라나야마",
+        "philosophy": "요가 철학",
+        "satsang": "삿상",
+        "retreats": "리트릿",
+        "gallery": "갤러리",
+        "more": "더 보기",
+        "readMore": "더 읽기",
+        "viewAll": "모두 보기"
+    },
+    "header": {
+        "overview": "개요",
+        "viewAllRetreats": "모든 리트릿 보기",
+        "journal": "저널",
+        "bookYourJourney": "여정 예약하기",
+        "welcomeTo": "환영합니다",
+        "yogaShala": "요가 샬라 리시케시",
+        "explore": "탐험하기"
+    },
+    "hero": {
+        "title1": "요가 교사 훈련",
+        "title2": "인도 리시케시에서",
+        "subtitle": "세계 요가의 수도에서 열리는 요가 얼라이언스 인증 하타 & 아쉬탕가 프로그램",
+        "cta": "우리의 이야기를 발견하세요",
+        "scroll": "스크롤하여 탐색"
+    },
+    "courses": {
+        "teacherTraining": "교사 훈련",
+        "100hr": "100시간 TTC",
+        "200hr": "200시간 TTC",
+        "300hr": "300시간 TTC",
+        "yogaAllianceCertified": "요가 얼라이언스 인증"
+    },
+    "contact": {
+        "title": "연락하기",
+        "subtitle": "여러분의 연락을 기다리고 있습니다",
+        "fullName": "성명",
+        "email": "이메일 주소",
+        "phone": "전화번호",
+        "subject": "제목",
+        "message": "메시지",
+        "send": "메시지 보내기",
+        "success": "전송 완료!",
+        "successDescription": "메시지가 수신되었습니다. 곧 연락드리겠습니다.",
+        "error": "오류가 발생했습니다",
+        "errorDescription": "다시 시도하거나 WhatsApp으로 직접 연락해 주세요."
+    },
+    "footer": {
+        "description": "무한한 비전, 무한한 가능성. 리시케시 중심부의 진정한 요가.",
+        "copyright": "모든 권리 보유.",
+        "poweredBy": "제작",
+        "teacherTraining": "교사 훈련",
+        "comingSoon": "출시 예정: 온라인 코스",
+        "programs": "집중 프로그램",
+        "yogaRetreats": "요가 리트릿",
+        "pranayamaCourse": "프라나야마 코스",
+        "devotionBhakti": "헌신 (박티)",
+        "vedicRituals": "베다 의식",
+        "yogaPhilosophy": "요가 철학",
+        "company": "회사 정보",
+        "blogArticles": "블로그 및 기사",
+        "terms": "이용약관",
+        "privacy": "개인정보처리방침",
+        "refund": "환불 정책"
+    }
+}

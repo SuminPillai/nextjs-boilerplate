@@ -1,0 +1,79 @@
+{
+    "common": {
+        "siteName": "アナンタドリシュティ ヨガ",
+        "tagline": "無限のビジョン、無限の可能性",
+        "bookNow": "今すぐ予約",
+        "learnMore": "詳しくはこちら",
+        "contactUs": "お問い合わせ",
+        "home": "ホーム",
+        "about": "私たちについて",
+        "contact": "お問い合わせ",
+        "blog": "ブログ",
+        "offerings": "コース一覧",
+        "devotion": "帰依",
+        "rituals": "儀式",
+        "pranayama": "プラナヤマ",
+        "philosophy": "ヨガ哲学",
+        "satsang": "サットサング",
+        "retreats": "リトリート",
+        "gallery": "ギャラリー",
+        "more": "その他",
+        "readMore": "続きを読む",
+        "viewAll": "すべて見る"
+    },
+    "header": {
+        "overview": "概要",
+        "viewAllRetreats": "すべてのリトリートを見る",
+        "journal": "ジャーナル",
+        "bookYourJourney": "旅を予約する",
+        "welcomeTo": "ようこそ",
+        "yogaShala": "ヨガ シャラ リシケシへ",
+        "explore": "探求する"
+    },
+    "hero": {
+        "title1": "ヨガ ティーチャートレーニング",
+        "title2": "インド・リシケシにて",
+        "subtitle": "ヨガの聖地で開催されるヨガアライアンス認定ハタ＆アシュタンガプログラム",
+        "cta": "私たちの物語を探る",
+        "scroll": "スクロールして探索"
+    },
+    "courses": {
+        "teacherTraining": "ティーチャートレーニング",
+        "100hr": "100時間 TTC",
+        "200hr": "200時間 TTC",
+        "300hr": "300時間 TTC",
+        "yogaAllianceCertified": "ヨガアライアンス認定"
+    },
+    "contact": {
+        "title": "お問い合わせ",
+        "subtitle": "ご連絡をお待ちしています",
+        "fullName": "氏名",
+        "email": "メールアドレス",
+        "phone": "電話番号",
+        "subject": "件名",
+        "message": "メッセージ",
+        "send": "メッセージを送信",
+        "success": "送信完了！",
+        "successDescription": "メッセージを受け付けました。間もなくご連絡いたします。",
+        "error": "エラーが発生しました",
+        "errorDescription": "もう一度お試しいただくか、WhatsAppで直接ご連絡ください。"
+    },
+    "footer": {
+        "description": "無限のビジョン、無限の可能性。リシケシの中心部にある本格的なヨガ。",
+        "copyright": "全著作権所有。",
+        "poweredBy": "制作",
+        "teacherTraining": "ティーチャートレーニング",
+        "comingSoon": "近日公開：オンラインコース",
+        "programs": "集中プログラム",
+        "yogaRetreats": "ヨガリトリート",
+        "pranayamaCourse": "プラナヤマ コース",
+        "devotionBhakti": "帰依（バクティ）",
+        "vedicRituals": "ヴェーダの儀式",
+        "yogaPhilosophy": "ヨガ哲学",
+        "company": "会社情報",
+        "blogArticles": "ブログと記事",
+        "terms": "利用規約",
+        "privacy": "プライバシーポリシー",
+        "refund": "返金ポリシー"
+    }
+}

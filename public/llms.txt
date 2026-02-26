@@ -1,0 +1,14 @@
+# Ananta Drishti Yoga
+
+> A traditional yoga school in Rishikesh, India, offering Yoga Alliance certified Teacher Training Courses (200, 300 Hour) and immersive retreats. We blend ancient scripture, Bhakti (devotion), and scientific alignment to offer a "Journey to the Self".
+
+## Core Documentation
+- [Full Site Content & Context](llms-full.txt)
+
+## Key Pages
+- [Homepage](https://www.anantadrishtiyoga.com/)
+- [200-Hour Yoga TTC](https://www.anantadrishtiyoga.com/courses/200-hour-yoga-ttc)
+- [300-Hour Yoga TTC](https://www.anantadrishtiyoga.com/courses/300-hour-yoga-ttc)
+- [7-Day Yoga Retreat](https://www.anantadrishtiyoga.com/retreats/7-day-yoga-retreat)
+- [Sacred Rituals](https://www.anantadrishtiyoga.com/rituals)
+- [Yoga Philosophy](https://www.anantadrishtiyoga.com/yoga-philosophy)

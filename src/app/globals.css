@@ -1,0 +1,273 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #FFF7ED;
+  --color-foreground: #44403C;
+
+  --color-brand-base: #FFF7ED;
+  --color-brand-surface: #FFFFFF;
+  --color-brand-text: #44403C;
+  --color-brand-text-muted: #57534E;
+  --color-brand-primary: #D97706;
+  --color-brand-primary-dark: #B45309;
+  --color-brand-accent: #FBBF24;
+  --color-brand-dark: #292524;
+
+  --font-sans: var(--font-poppins), sans-serif;
+  --font-serif: var(--font-cormorant), serif;
+  --font-display: var(--font-cinzel), cursive;
+
+  --animate-bounce-slow: bounce 3s infinite;
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+:root {
+  /* Core Palette - Refined Saffron & Stone */
+  --brand-base: #FFFBEB;
+  /* Amber-50 */
+  --brand-surface: #FFFFFF;
+  --brand-text: #292524;
+  /* Stone-800 */
+  --brand-text-muted: #57534E;
+  /* Stone-600 */
+  --brand-primary: #D97706;
+  /* Amber-600 - The Monk's Robe */
+  --brand-primary-dark: #B45309;
+  /* Amber-700 */
+  --brand-accent: #0F766E;
+  /* Teal-700 - The Ganga */
+  --brand-dark: #1C1917;
+  /* Stone-900 */
+
+  --background: #FFF7ED;
+  --foreground: #44403C;
+
+  --font-serif: var(--font-cormorant), serif;
+  --font-sans: var(--font-poppins), sans-serif;
+  --font-display: var(--font-cinzel), cursive;
+}
+
+/* Premium Saffron Gradient Background */
+body {
+  color: var(--foreground);
+  background: radial-gradient(circle at 50% 0%, #FFF7ED 0%, #FFEDD5 40%, #FFFBEB 100%);
+  background-attachment: fixed;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Subtle Noise Quality for Texture */
+.noise-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 40;
+  opacity: 0.03;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='1'/%3E%3C/svg%3E");
+}
+
+@layer base {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif text-brand-dark;
+  }
+}
+
+/* Custom Visual Tokens from Original styles.css */
+.golden-thread {
+  position: relative;
+  overflow: hidden;
+}
+
+.golden-thread::after {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border: 1px solid rgba(217, 119, 6, 0.4);
+  opacity: 0;
+  transform: scale(0.95);
+  transition: all 0.5s ease;
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+.golden-thread:hover::after {
+  opacity: 1;
+  transform: scale(1);
+  border-color: #D97706;
+}
+
+.hero-text-shadow {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.henna-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23D97706' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.mandala-bg {
+  background-image:
+    radial-gradient(circle at 20% 50%, rgba(217, 119, 6, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 80% 50%, rgba(251, 191, 36, 0.05) 0%, transparent 50%);
+  background-size: 100% 100%;
+}
+
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-brand-primary text-white px-8 py-3 rounded-full font-semibold hover:bg-brand-primary-dark transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center;
+  }
+}
+
+/* Custom Effects */
+.glass-panel {
+  @apply bg-white/70 backdrop-blur-md border border-white/40 shadow-xl;
+}
+
+.text-shadow {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Shimmer Animation for Skeleton */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 2s infinite linear;
+}
+
+/* Smooth Scroll Behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Enhanced Typography */
+h1 {
+  @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight;
+  line-height: 1.1;
+}
+
+h2 {
+  @apply text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight;
+  line-height: 1.2;
+}
+
+h3 {
+  @apply text-2xl sm:text-3xl md:text-4xl font-semibold;
+  line-height: 1.3;
+}
+
+h4 {
+  @apply text-xl sm:text-2xl md:text-3xl font-semibold;
+}
+
+h5 {
+  @apply text-lg sm:text-xl md:text-2xl font-semibold;
+}
+
+h6 {
+  @apply text-base sm:text-lg md:text-xl font-semibold;
+}
+
+/* Gradient Text Effect */
+.gradient-text {
+  background: linear-gradient(135deg, #D97706 0%, #F59E0B 50%, #FBBF24 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-teal {
+  background: linear-gradient(135deg, #0F766E 0%, #14B8A6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Enhanced Shadow System */
+.shadow-soft {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.shadow-medium {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.shadow-strong {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.16);
+}
+
+.shadow-glow-amber {
+  box-shadow: 0 0 20px rgba(217, 119, 6, 0.3);
+}
+
+.shadow-glow-teal {
+  box-shadow: 0 0 20px rgba(15, 118, 110, 0.3);
+}
+
+/* Text Shadow Variants */
+.text-shadow-soft {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text-shadow-medium {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.text-shadow-strong {
+  text-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Mesh Gradient Background */
+.mesh-gradient {
+  background:
+    radial-gradient(at 0% 0%, rgba(217, 119, 6, 0.1) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(251, 191, 36, 0.1) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(15, 118, 110, 0.1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, rgba(20, 184, 166, 0.1) 0px, transparent 50%);
+}
+
+/* Enhanced Glassmorphism */
+.glass-card {
+  @apply bg-white/80 backdrop-blur-xl border border-white/50 shadow-2xl;
+}
+
+.glass-card-dark {
+  @apply bg-brand-dark/80 backdrop-blur-xl border border-white/10 shadow-2xl;
+}
+
+/* Focus Visible for Accessibility */
+*:focus-visible {
+  @apply outline-2 outline-offset-2 outline-brand-primary;
+}
+
+/* Selection Color */
+::selection {
+  background-color: rgba(217, 119, 6, 0.3);
+  color: inherit;
+}

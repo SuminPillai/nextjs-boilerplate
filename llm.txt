@@ -1,0 +1,81 @@
+# Ananta Drishti Yoga - Project Context for LLMs
+
+## 1. Project Overview
+Ananta Drishti Yoga is a traditional yoga school in Rishikesh, India, focusing on Bhakti, Ritual, and Ancient Scripture. The website serves as a digital sanctuary, reflecting these values through a "Modern Spiritual Sanctuary" aesthetic.
+
+## 2. Tech Stack Setup
+- **Framework**: Next.js 16.1 (App Router)
+- **Language**: TypeScript 5
+- **Styling**: Tailwind CSS 4.0 (using `@theme` and CSS variables)
+- **Animation**: Framer Motion 12.3 (ScrollReveal, Hero animations)
+- **Icons**: Lucide React
+- **Deployment**: Vercel
+- **Package Manager**: npm
+
+## 3. Design System (Global Styles)
+Defined in `src/app/globals.css`.
+
+### Color Palette
+- **Base/Background**: `#FFF7ED` (Orange-50/Refined Saffron) - Variable: `--brand-base`
+- **Surface**: `#FFFFFF` - Variable: `--brand-surface`
+- **Primary**: `#D97706` (Amber-600) - Variable: `--brand-primary`
+- **Primary Dark**: `#B45309` (Amber-700) - Variable: `--brand-primary-dark`
+- **Accent**: `#0F766E` (Teal-700) - Variable: `--brand-accent`
+- **Text**: `#292524` (Stone-900) - Variable: `--brand-dark`
+- **Muted Text**: `#57534E` (Stone-600) - Variable: `--brand-text-muted`
+
+### Typography
+- **Display**: Cinzel (`--font-display`) - For headings and emphasis.
+- **Serif**: Cormorant Garamond (`--font-serif`) - For elegant body text and quotes.
+- **Sans**: Poppins (`--font-sans`) - For UI elements and readability.
+
+### Visual Effects (Custom Classes)
+- `.glass-panel` / `.glass-card`: Glassmorphism effect with blur and semi-transparent white/dark backgrounds.
+- `.text-shadow-soft` / `.text-shadow-strong`: Custom text shadows for depth.
+- `.golden-thread`: Hover effect/border animation.
+- `.noise-overlay`: Subtle texture overlay for organic feel.
+- `bg-gradient-to-...`: Extensive use of gradients (Saffron, Teal) for backgrounds.
+
+## 4. Project Structure (Key Directories)
+- **`src/app`**: App Router pages and layouts.
+    - `(routes)`: `about`, `contact`, `blog`.
+    - `courses/`: `[course-slug]` pages (200hr, 300hr, etc.).
+    - `retreats/`: `[retreat-slug]` pages (7-day, 3-day, etc.).
+    - `globals.css`: Global styles and Tailwind configuration.
+    - `layout.tsx`: Root layout with Header/Footer.
+    - `page.tsx`: Homepage.
+
+- **`src/components`**:
+    - **`home/`**: Homepage specific sections (`Hero`, `Stats`, `Offerings`, `Testimonials`, etc.).
+    - **`ui/`**: Reusable UI primitives (`Button`, `Card`, `Section`, `ScrollReveal`, `AnimatedButton`).
+    - **`seo/`**: JSON-LD schema components (`CourseSchema`, `HomePageSchema`).
+    - **`layout/`**: `Header`, `Footer`, `MobileMenu`.
+
+## 5. Key Routes & URLs
+### Main Pages
+- **Homepage**: `/`
+- **About**: `/about`
+- **Contact**: `/contact` (Booking inquiries)
+- **Rituals**: `/rituals`
+- **Pranayama**: `/pranayama`
+- **Philosophy**: `/yoga-philosophy`
+
+### Courses (TTC)
+- **200-Hour TTC**: `/courses/200-hour-yoga-ttc`
+- **100-Hour TTC**: `/courses/100-hour-yoga-ttc`
+- **300-Hour TTC**: `/courses/300-hour-yoga-ttc`
+
+### Retreats
+- **7-Day Yoga Retreat**: `/retreats/7-day-yoga-retreat`
+- **3-Day Pranayama**: `/retreats/3-day-pranayama-retreat`
+- **1-Day Reset**: `/retreats/1-day-retreat`
+- **Advanced Pranayama**: `/retreats/advanced-pranayama-immersion`
+
+## 6. Development Workflow
+- **Run Dev Server**: `npm run dev` (Starts on localhost:3000)
+- **Build Production**: `npm run build`
+- **Lint Code**: `npm run lint`
+
+## 7. SEO Strategy
+- **Metadata**: Next.js Metadata API used in `layout.tsx` files for each route.
+- **Structured Data**: Custom JSON-LD components in `src/components/seo` to generate `Schema.org` data for Courses, Events, and Organization.
