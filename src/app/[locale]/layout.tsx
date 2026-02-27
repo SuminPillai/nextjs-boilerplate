@@ -130,7 +130,7 @@ export default async function RootLayout({
   const { locale } = await params;
 
   return (
-    <html lang={locale}>
+    <html lang={locale} suppressHydrationWarning>
       <head>
         {/* Preconnect to external resources for faster loading */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
